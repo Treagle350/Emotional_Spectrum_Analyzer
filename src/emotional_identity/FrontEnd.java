@@ -591,6 +591,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[0] = temp[0] + 1;
+            nextButton.setEnabled(true);
         }
         if(aweFlag & loveFlag){
             submissionAnswer.setBackground(superSelectedColor);
@@ -598,6 +599,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[1] = temp[1] + 1;
+            nextButton.setEnabled(true);
         }
         if(disapprovalFlag & submissionFlag){
             aweAnswer.setBackground(superSelectedColor);
@@ -605,6 +607,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[2] = temp[2] + 1;
+            nextButton.setEnabled(true);
         }
         if(remorseFlag & aweFlag){
             disapprovalAnswer.setBackground(superSelectedColor);
@@ -612,6 +615,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[3] = temp[3] + 1;
+            nextButton.setEnabled(true);
         }
         if(contemptFlag & disapprovalFlag){
             remorseAnswer.setBackground(superSelectedColor);
@@ -619,6 +623,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[4] = temp[4] + 1;
+            nextButton.setEnabled(true);
         }
         if(aggressionFlag & remorseFlag){
             contemptAnswer.setBackground(superSelectedColor);
@@ -626,6 +631,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[5] = temp[5] + 1;
+            nextButton.setEnabled(true);
         }
         if(optimismFlag & contemptFlag){
             aggressionAnswer.setBackground(superSelectedColor);
@@ -633,6 +639,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[6] = temp[6] + 1;
+            nextButton.setEnabled(true);
         }
         if(loveFlag & aggressionFlag){
             optimismAnswer.setBackground(superSelectedColor);
@@ -640,6 +647,7 @@ public class FrontEnd extends javax.swing.JFrame {
             resetButton.setVisible(true);
             superCheck = true;
             temp[7] = temp[7] + 1;
+            nextButton.setEnabled(true);
         }
     }
     
@@ -796,6 +804,7 @@ public class FrontEnd extends javax.swing.JFrame {
         End.setVisible(false);
         resetButton.setVisible(false);
         superCheck = false;
+        nextButton.setEnabled(false);
         
         for(int i=0;i<8;i++){
                     temp[i] = 0;
