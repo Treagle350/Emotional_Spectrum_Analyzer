@@ -77,7 +77,7 @@ public class QuizCases {
             case 0:
                 answer = "Love-centered : emotionally lives in a bubble.";
                 description = "Preoccupies oneself mainly with their loved ones and nothing else.";
-                fear = "Fears not hurting loved ones (Being in remorse).";
+                fear = "Fears hurting loved ones (Being in remorse).";
                 break;
                 
             case 1:
@@ -94,7 +94,7 @@ public class QuizCases {
                 
             case 3:
                 answer = "Disapproval-centered : emotionally forsakes the world.";
-                description = "While in the the state of refusal, one can ";
+                description = "While in the the state of refusal, one can lose touch with those around oneself.";
                 fear = "Fears having to address the source for disapproval (Being in optimism).";
                 break;
                 

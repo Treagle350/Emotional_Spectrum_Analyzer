@@ -491,7 +491,7 @@ public class FrontEnd extends javax.swing.JFrame {
             if(submissionFlag){
                 submissionAnswer.setBackground(selectedColor);
                 contemptAnswer.setBackground(oppositeSelectedColor);
-                temp[indexButton] = 0;
+                temp[indexButton] = 1;
                 creditScore = creditScore - 1;
             }else if(!submissionFlag){
                 submissionAnswer.setBackground(nonSelectedColor);
