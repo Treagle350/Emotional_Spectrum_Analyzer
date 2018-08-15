@@ -1,3 +1,4 @@
 # Emotional_Spectrum_Analyzer
 WIP
-<a href=http://www.MySite.com/app.jnlp>Launch the application</a>
+
+<a href=https://github.com/Treagle350/Emotional_Spectrum_Analyzer/blob/master/dist/Emotional_Spectrum.jar>Launch the application</a>
