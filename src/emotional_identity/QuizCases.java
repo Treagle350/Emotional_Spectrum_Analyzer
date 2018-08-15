@@ -54,13 +54,13 @@ public class QuizCases {
         String problem, love, submission, awe, disapproval, remorse, contempt, aggression, optimism;
         
         //Case 1 : Orientation case
-        problem = "Pick the things you would prefer the most"; 
-        love = "You have to let others help you";
-        submission = "You have to let others decide your actions";
-        awe = "You have to acknowledge a person as superior in skills"; 
-        disapproval = "You have to turn your back on someone";
+        problem = "Pick the things you feel, are most natural to you"; 
+        love = "You have to let someone help you make a decision";
+        submission = "You have to let someone defend you from harm";
+        awe = "You have to praise someone for their skills"; 
+        disapproval = "You have to walk away from an argument";
         remorse = "You have to reminisce over past mistakes"; 
-        contempt = "You have to show you're better than someone else"; 
+        contempt = "You have to prove yourself superior than the others"; 
         aggression = "You have to contest someone's opinion"; 
         optimism = "You have to find the answers to a mystery";  
         addCase(problem, love, submission, awe, disapproval, remorse, contempt, aggression, optimism);

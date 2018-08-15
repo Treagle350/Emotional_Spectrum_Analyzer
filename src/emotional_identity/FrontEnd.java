@@ -146,25 +146,21 @@ public class FrontEnd extends javax.swing.JFrame {
         EndLayout.setHorizontalGroup(
             EndLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(EndLayout.createSequentialGroup()
-                .addGroup(EndLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(results2, javax.swing.GroupLayout.PREFERRED_SIZE, 1222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(EndLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(EndLayout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(results1, javax.swing.GroupLayout.PREFERRED_SIZE, 1222, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, EndLayout.createSequentialGroup()
-                            .addGap(46, 46, 46)
-                            .addComponent(results, javax.swing.GroupLayout.PREFERRED_SIZE, 1222, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(204, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addGroup(EndLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(results1, javax.swing.GroupLayout.DEFAULT_SIZE, 1131, Short.MAX_VALUE)
+                    .addComponent(results, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(results2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(295, Short.MAX_VALUE))
         );
         EndLayout.setVerticalGroup(
             EndLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(EndLayout.createSequentialGroup()
-                .addGap(98, 98, 98)
+                .addGap(100, 100, 100)
                 .addComponent(results, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addComponent(results1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+                .addComponent(results1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
                 .addComponent(results2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(63, Short.MAX_VALUE))
         );
@@ -372,7 +368,7 @@ public class FrontEnd extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 415, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 415, Short.MAX_VALUE)
         );
 
         pack();
@@ -417,6 +413,11 @@ public class FrontEnd extends javax.swing.JFrame {
         results.setText(quiz.getResults(index).get(0));
         results1.setText(quiz.getResults(index).get(1));
         results2.setText(quiz.getResults(index).get(2));
+        
+        for(int i=0;i<8;i++){
+                    emotionalSpectrum[i] = 0;
+                    temp[i] = 0;
+        }
     }
     
     private void resetButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetButtonActionPerformed
@@ -791,6 +792,8 @@ public class FrontEnd extends javax.swing.JFrame {
     }
     
     private void resetQuiz(){
+        Middle.setVisible(true);
+        End.setVisible(false);
         resetButton.setVisible(false);
         superCheck = false;
         
