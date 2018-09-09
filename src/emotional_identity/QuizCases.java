@@ -54,6 +54,7 @@ public class QuizCases {
         String problem, love, submission, awe, disapproval, remorse, contempt, aggression, optimism;
         
         //Case 1 : Orientation case
+        /*
         problem = "Pick the things you feel, are most natural to you"; 
         love = "You have to let someone help you make a decision";
         submission = "You have to let someone defend you from harm";
@@ -63,6 +64,19 @@ public class QuizCases {
         contempt = "You have to prove yourself superior than the others"; 
         aggression = "You have to contest someone's opinion"; 
         optimism = "You have to find the answers to a mystery";  
+        addCase(problem, love, submission, awe, disapproval, remorse, contempt, aggression, optimism);
+        */
+        
+        //Case 2 : Chosing case
+        problem = "Which of the following statements fits most concisely ?"; 
+        love = "I easily trust people, because I can't stand the thought of me pushing them away.";
+        submission = "I tend to do what people ask me to, because I dislike having to deal with them.";
+        awe = "I'm easily astounded by people, because I want others to investigate them for me."; 
+        disapproval = "I turn my back easily on people, because I know they're better than this and a timeout will help.";
+        remorse = "I regret most things I do and encounter, because I think those I care about deserved better."; 
+        contempt = "I naturally distance myself from others, because I only care about some people."; 
+        aggression = "I question everything, because I can't help but think this all has to be attributed to something bigger."; 
+        optimism = "I tend to look for the best in people, because I can't believe how bad some can come across.";  
         addCase(problem, love, submission, awe, disapproval, remorse, contempt, aggression, optimism);
         
     }

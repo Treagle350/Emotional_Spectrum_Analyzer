@@ -48,7 +48,7 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="Top" alignment="0" max="32767" attributes="0"/>
               <Component id="Bottom" alignment="0" max="32767" attributes="0"/>
-              <Component id="Middle" alignment="0" pref="1472" max="32767" attributes="0"/>
+              <Component id="Middle" alignment="0" pref="2118" max="32767" attributes="0"/>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Component id="End" alignment="0" max="32767" attributes="0"/>
               </Group>
@@ -247,13 +247,13 @@
                       </Group>
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="remorseAnswer" pref="576" max="32767" attributes="0"/>
+                          <Component id="remorseAnswer" pref="880" max="32767" attributes="0"/>
                           <Component id="loveAnswer" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="disapprovalAnswer" min="-2" max="-2" attributes="0"/>
-                          <Component id="submissionAnswer" pref="577" max="32767" attributes="0"/>
+                          <Component id="submissionAnswer" pref="881" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                   </Group>
